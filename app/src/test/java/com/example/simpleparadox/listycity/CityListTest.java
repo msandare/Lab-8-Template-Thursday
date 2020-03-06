@@ -96,9 +96,12 @@ class CityListTest {
 
     @Test
     void addAnotherCity(){
+        CityList cityList = mockCityList();
+
+        assertTrue(cityList.hasCity(new City("Tokyo", "Tokyo")));
 
     }
 
-     
+
 
 }
