@@ -98,6 +98,8 @@ class CityListTest {
     void addAnotherCity(){
         CityList cityList = mockCityList();
 
+        cityList.add(new City("Tokyo", "Tokyo"));
+
         assertTrue(cityList.hasCity(new City("Tokyo", "Tokyo")));
 
     }
